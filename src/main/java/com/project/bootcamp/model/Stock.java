@@ -9,7 +9,7 @@ public class Stock {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "code")
+    @Column(name = "id")
     private Long id;
 
     @Column(name = "name")
